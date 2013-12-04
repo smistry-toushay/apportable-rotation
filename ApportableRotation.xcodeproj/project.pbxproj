@@ -13,8 +13,6 @@
 		AF44CF25184FB9CF00EB41B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF44CF23184FB9CF00EB41B0 /* InfoPlist.strings */; };
 		AF44CF27184FB9CF00EB41B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF44CF26184FB9CF00EB41B0 /* main.m */; };
 		AF44CF2B184FB9CF00EB41B0 /* ARAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF44CF2A184FB9CF00EB41B0 /* ARAppDelegate.m */; };
-		AF44CF2E184FB9CF00EB41B0 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF44CF2C184FB9CF00EB41B0 /* Main_iPhone.storyboard */; };
-		AF44CF31184FB9CF00EB41B0 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF44CF2F184FB9CF00EB41B0 /* Main_iPad.storyboard */; };
 		AF44CF34184FB9CF00EB41B0 /* ARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF44CF33184FB9CF00EB41B0 /* ARViewController.m */; };
 		AF44CF36184FB9CF00EB41B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF44CF35184FB9CF00EB41B0 /* Images.xcassets */; };
 		AF44CF3D184FB9CF00EB41B0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF44CF3C184FB9CF00EB41B0 /* XCTest.framework */; };
@@ -45,8 +43,6 @@
 		AF44CF28184FB9CF00EB41B0 /* ApportableRotation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ApportableRotation-Prefix.pch"; sourceTree = "<group>"; };
 		AF44CF29184FB9CF00EB41B0 /* ARAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARAppDelegate.h; sourceTree = "<group>"; };
 		AF44CF2A184FB9CF00EB41B0 /* ARAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARAppDelegate.m; sourceTree = "<group>"; };
-		AF44CF2D184FB9CF00EB41B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		AF44CF30184FB9CF00EB41B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		AF44CF32184FB9CF00EB41B0 /* ARViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARViewController.h; sourceTree = "<group>"; };
 		AF44CF33184FB9CF00EB41B0 /* ARViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARViewController.m; sourceTree = "<group>"; };
 		AF44CF35184FB9CF00EB41B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -116,8 +112,6 @@
 			children = (
 				AF44CF29184FB9CF00EB41B0 /* ARAppDelegate.h */,
 				AF44CF2A184FB9CF00EB41B0 /* ARAppDelegate.m */,
-				AF44CF2C184FB9CF00EB41B0 /* Main_iPhone.storyboard */,
-				AF44CF2F184FB9CF00EB41B0 /* Main_iPad.storyboard */,
 				AF44CF32184FB9CF00EB41B0 /* ARViewController.h */,
 				AF44CF33184FB9CF00EB41B0 /* ARViewController.m */,
 				AF44CF35184FB9CF00EB41B0 /* Images.xcassets */,
@@ -232,9 +226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF44CF31184FB9CF00EB41B0 /* Main_iPad.storyboard in Resources */,
 				AF44CF36184FB9CF00EB41B0 /* Images.xcassets in Resources */,
-				AF44CF2E184FB9CF00EB41B0 /* Main_iPhone.storyboard in Resources */,
 				AF44CF25184FB9CF00EB41B0 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,22 +277,6 @@
 				AF44CF24184FB9CF00EB41B0 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		AF44CF2C184FB9CF00EB41B0 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AF44CF2D184FB9CF00EB41B0 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		AF44CF2F184FB9CF00EB41B0 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AF44CF30184FB9CF00EB41B0 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		AF44CF45184FB9CF00EB41B0 /* InfoPlist.strings */ = {
@@ -475,6 +451,7 @@
 				AF44CF4E184FB9CF00EB41B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF44CF4F184FB9CF00EB41B0 /* Build configuration list for PBXNativeTarget "ApportableRotationTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +460,7 @@
 				AF44CF51184FB9CF00EB41B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
